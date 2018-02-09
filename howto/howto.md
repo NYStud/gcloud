@@ -1,37 +1,26 @@
 ## The Gcloud assignment
 
-### Docker setup
-
-1. 
-1. at top right click on create and then "Create automated Build"
-1. select github (on the left)
-1. select your forked project yourgithubid/gcloud
-1. click on create
-
-Now every time you push a commit to the github repo, the new container is created on DockerHub.
-
-You can access them from any machine via
-`docker pull yourDockerId/gcloud`
-
-#### > fork coscs340/gcloud
-
-![image0001](image0001.png)
-
-![image0002](image0002.png)
-
-![image0003](image0003.png)
-
-![image0004](image0004.png)
-
-![image0005](image0005.png)
+Make a new `webserver` repo on your github user, then
 
 ![image0006](image0006.png)
+
+Make an index.html
 
 ![image0007](image0007.png)
 
 ![image0008](image0008.png)
 
+For Dockerfile:
+
+![image0061](image0061.png)
+
 ![image0009](image0009.png)
+
+Got Dockerfile and index?
+
+![image0060](image0060.png)
+
+Ok ready for next part
 
 #### > create dockerhub account [hub.docker.com](http://hub.docker.com)
 
@@ -43,13 +32,13 @@ You can access them from any machine via
 
 ![image0013](image0013.png)
 
-Select the forked gcloud repo
+Select the repo
 
-![image0014](image0014.png)
+![image0059](image0059.png)
 
 ![image0015](image0015.png)
 
-![image0016](image0016.png)
+![image0058](image0058.png)
 
 Done with the docker stuff for now.
 
