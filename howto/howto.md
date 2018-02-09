@@ -105,15 +105,29 @@ Check the "Deploy a container image" so that we can use our docker container.
 
 Remember this?
 
-![image0031](image0031.png)
+![image0054](image0054.png)
 
 Put that title into this:
 
-![image0032](image0032.png)
+![image0055](image0055.png)
 
 Add HTTP for the firewall:
 
 ![image0033](image0033.png)
+
+Click that more config stuff dropdown:
+
+![image0056](image0056.png)
+
+Now add this into the boot script: (modify it first)
+
+```
+#!/bin/bash
+docker rm ws
+docker run -d --name ws -p80:80 YOURGITHUBUSER/webserver
+```
+
+![image0057](image0057.png)
 
 Done here.
 
@@ -127,6 +141,6 @@ Done:
 
 ![image0036](image0036.png)
 
-Click on that IP: Nothing!
+Click on that IP: WEBSITE!
 
-Because there's no process running responding to port 80 at all yet. This is where docker comes in.
+E.x. [http://35.196.184.168/](http://35.196.184.168/)
