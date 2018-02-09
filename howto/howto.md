@@ -40,6 +40,10 @@ Select the repo
 
 ![image0058](image0058.png)
 
+Go to "Build Settings" and hit the trigger button for master:
+
+![image0062](image0062.png)
+
 Done with the docker stuff for now.
 
 ## Now to Google Cloud
